@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="1" author="katlego">
+        <comment>insert test data for the persistence test.</comment>
+        <insert tableName="PARTY">
+            <column name="ID">100</column>
+            <column name="MODIFIED_BY">Katlego Maleka</column>
+            <column name="VERSION">1.0</column>
+        </insert>
+        <insert tableName="PARTY">
+            <column name="ID">101</column>
+            <column name="MODIFIED_BY">Katlego Maleka</column>
+            <column name="VERSION">1.0</column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
