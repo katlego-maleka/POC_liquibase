@@ -3,9 +3,11 @@ POC_liquibase
 
 A sample project to showcase how we intend to integrate with liquibase in our projects. The requirements below have
 been given priority:
-1. To provide DBA's freedom in their designs.
+
+A. To provide DBA's freedom in their designs, see http://blog.aparnachaudhary.com/2013/08/03/database-change-management-with-liquibase/
   
-2. Database structure changes to be visible to all team members.
+B. Database structure changes to be visible to all team members.
+
   There are database versioning tools rely on the manual creation of SQL or SQL-like changesets, 
   but many use a simplistic tracking system that does not scale to multiple developers or code branches. 
   In particular, they are built around a concept of a linear database "version" which starts at version 1. 
